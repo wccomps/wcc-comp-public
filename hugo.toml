@@ -5,7 +5,7 @@ title = "WCCOMPS - Western Coalition of Competitions"
 ignoreLogs = ['warning-goldmark-raw-html']
 
 [params]
-  description = "Western Coalition of Competitions - Organizing premier cybersecurity competitions including WRCCDC, PRCCDC, CIRCUS, and HackerCamp"
+  description = "Western Coalition of Competitions - Organizing premier cybersecurity competitions including WRCCDC, PRCCDC and CIRCUS"
   author = "WCCOMPS"
   email = "info@wccomps.org"
   github = "https://github.com/wrccdc-org"

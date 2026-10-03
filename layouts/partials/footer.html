@@ -5,21 +5,21 @@
                 <h5 class="fw-bold">
                     <i class="bi bi-shield-lock"></i> WCCOMPS
                 </h5>
-                <p class="text-muted">Western Coalition of Competitions - Empowering the next generation of cybersecurity professionals through world-class competitions and education.</p>
+                <p class="text-light opacity-75">Western Coalition of Competitions - Empowering the next generation of cybersecurity professionals through world-class competitions and education.</p>
             </div>
             <div class="col-md-4 mb-4">
                 <h6 class="fw-bold">Quick Links</h6>
                 <ul class="list-unstyled">
                     {{ range .Site.Data.footer_links.quick_links }}
-                    <li><a href="{{ .url }}" class="text-muted text-decoration-none">{{ .name }}</a></li>
+                    <li><a href="{{ .url }}" class="text-light text-decoration-none">{{ .name }}</a></li>
                     {{ end }}
                 </ul>
             </div>
             <div class="col-md-4 mb-4">
                 <h6 class="fw-bold">Connect</h6>
-                <p class="text-muted">
+                <p class="text-light opacity-75">
                     {{ range .Site.Data.footer_links.socials }}
-                    <a href="{{ .url }}" class="text-muted text-decoration-none" target="_blank">
+                    <a href="{{ .url }}" class="text-light text-decoration-none" target="_blank">
                         <i class="bi {{ .icon }}"></i> {{ .name }}
                     </a><br>
                     {{ end }}
@@ -27,7 +27,7 @@
             </div>
         </div>
         <hr class="bg-light">
-        <div class="text-center text-muted">
+        <div class="text-center text-light opacity-75">
             <p>&copy; {{ now.Year }} WCCOMPS. All rights reserved.</p>
         </div>
     </div>

@@ -8,8 +8,45 @@
       "icon": "shield-check",
       "years": [
         {
+          "year": 2027,
+          "events": [
+            {
+              "name": "Invitational #1",
+              "date": "Saturday, Oct. 3, 2026",
+              "time": "9:00 a.m. - 5:00 p.m."
+            },
+            {
+              "name": "Invitational #2",
+              "date": "Saturday, Oct. 31, 2026",
+              "time": "9:00 a.m. - 5:00 p.m."
+            },
+            {
+              "name": "Invitational #3",
+              "date": "Saturday, Nov. 21, 2026",
+              "time": "9:00 a.m. - 5:00 p.m."
+            },
+            {
+              "name": "Invitational #4",
+              "date": "Saturday, Jan. 9, 2027",
+              "time": "9:00 a.m. - 5:00 p.m."
+            },
+            {
+              "name": "Qualifier",
+              "date": "Saturday, Feb. 6, 2027",
+              "time": "9:00 a.m. - 5:00 p.m."
+            },
+            {
+              "name": "Regional Finals",
+              "date": "TBD"
+            }
+          ],
+          "registration_url": "https://forms.gle/qMSjxU4p9gB5ybvp6",
+          "notes": "Invitationals are open to any school, including schools that do not qualify for CCDC. First come, first served. $100 per event.",
+          "timezone": "PT"
+        },
+        {
           "year": 2026,
-          "theme": "Critical Infrastructure Protection",
+          "theme": "Rafael Munoz Water and Power Regional Authority (RMWPRA)",
           "timezone": "PST",
           "events": [
             {
@@ -53,18 +90,95 @@
               "time": "9:00 a.m. - 6:00 p.m."
             }
           ],
-          "winner": "TBD",
-          "runner_up": "TBD",
-          "third_place": "TBD"
+          "winner": "Stanford University",
+          "runner_up": "UC Irvine",
+          "third_place": "UC Davis",
+          "notes": "Stanford University advanced to the National Finals; UC Irvine advanced to the National Wild Card Round. Division 2 (Community Colleges and Part Time Student Teams): 1. Cosumnes River College, 2. Coastline College, 3. City College of San Francisco.",
+          "standings": [
+            {
+              "rank": 1,
+              "team": "Stanford",
+              "services": 10438,
+              "injects": 26828,
+              "orange": 11645,
+              "red_team": -2175,
+              "total": 46736
+            },
+            {
+              "rank": 2,
+              "team": "UCI",
+              "services": 8978,
+              "injects": 25439,
+              "orange": 11797,
+              "red_team": -2450,
+              "total": 43763
+            },
+            {
+              "rank": 3,
+              "team": "UC Davis",
+              "services": -3786,
+              "injects": 17730,
+              "orange": 15088,
+              "red_team": -3650,
+              "total": 25382
+            },
+            {
+              "rank": 4,
+              "team": "UNR",
+              "services": -3720,
+              "injects": 16164,
+              "orange": 11037,
+              "red_team": -2975,
+              "total": 20507
+            },
+            {
+              "rank": 5,
+              "team": "UCSC",
+              "services": -4418,
+              "injects": 9877,
+              "orange": 10379,
+              "red_team": -3900,
+              "total": 11938
+            },
+            {
+              "rank": 6,
+              "team": "SDSU",
+              "services": -9927,
+              "injects": 8375,
+              "orange": 11139,
+              "red_team": -3325,
+              "total": 6262
+            },
+            {
+              "rank": 7,
+              "team": "CSUN",
+              "services": -13572,
+              "injects": 14261,
+              "orange": 7544,
+              "red_team": -3350,
+              "total": 4884
+            },
+            {
+              "rank": 8,
+              "team": "CSUSB",
+              "services": -11642,
+              "injects": 6617,
+              "orange": 9367,
+              "red_team": -3550,
+              "total": 791
+            }
+          ],
+          "scenario": "RMWPRA is a leading hydroelectric power and water management company serving Tinklesprings, CA. The company specializes in sustainable energy production, water distribution, and advanced monitoring systems."
         },
         {
           "year": 2024,
-          "theme": "Financial Services Security",
+          "theme": "Wobbly's World / Pasta & Playtime",
           "qualifier_date": "February 10, 2024",
           "regional_date": "March 22-24, 2024",
           "winner": "Stanford University",
           "runner_up": "UC Irvine",
-          "third_place": "Arizona State University"
+          "third_place": "Arizona State University",
+          "scenario": "A parody of Five Nights at Freddy's."
         },
         {
           "year": 2023,
@@ -83,21 +197,64 @@
       "icon": "globe",
       "years": [
         {
+          "year": 2027,
+          "events": [
+            {
+              "name": "Invitational #1",
+              "date": "Saturday, Oct. 3, 2026",
+              "time": "9:00 a.m. - 5:00 p.m."
+            },
+            {
+              "name": "Invitational #2",
+              "date": "Saturday, Oct. 31, 2026",
+              "time": "9:00 a.m. - 5:00 p.m."
+            },
+            {
+              "name": "Invitational #3",
+              "date": "Saturday, Nov. 21, 2026",
+              "time": "9:00 a.m. - 5:00 p.m."
+            },
+            {
+              "name": "Invitational #4",
+              "date": "Saturday, Jan. 9, 2027",
+              "time": "9:00 a.m. - 5:00 p.m."
+            },
+            {
+              "name": "Potential Qualifier",
+              "date": "Saturday, Feb. 20, 2027",
+              "time": "9:00 a.m. - 5:00 p.m."
+            },
+            {
+              "name": "Regionals",
+              "date": "Friday, Mar. 26 - Saturday, Mar. 27, 2027, Lacey, WA",
+              "time": "9:00 a.m. - 5:00 p.m. (expected)"
+            },
+            {
+              "name": "Job Fair + Awards",
+              "date": "Sunday, Mar. 28, 2027, Lacey, WA"
+            }
+          ],
+          "registration_url": "https://forms.gle/qMSjxU4p9gB5ybvp6",
+          "notes": "Invitationals are open to any school, including schools that do not qualify for CCDC. First come, first served. $100 per event. CCDC registration is through the national CCDC website and closes Monday, Feb. 1, 2027. The qualifier is free; the Lacey competition costs $300 (payment link to come).",
+          "timezone": "PT"
+        },
+        {
           "year": 2026,
-          "theme": "Island Infrastructure Security",
+          "theme": "Endicott Security Solutions (ESS)",
           "timezone": "PST",
           "events": [
             {
               "name": "Regionals",
-              "date": "March 20 - March 22, 2026",
-              "time": "TBA"
+              "date": "March 20-22, 2026"
             }
           ],
-          "winner": "TBD",
-          "runner_up": "TBD",
-          "third_place": "TBD"
+          "winner": "Western Washington",
+          "runner_up": "UW Bothell",
+          "third_place": "Evergreen",
+          "scenario": "Endicott Security Solutions (ESS) is a defense contracting company specializing in software development and secure systems engineering. The company develops mission-critical applications for government and defense sectors, with a strong emphasis on code quality and security."
         }
-      ]
+      ],
+      "url": "https://prccdc.com"
     },
     {
       "id": "circus",
@@ -161,22 +318,8 @@
           "runner_up": "TBD",
           "third_place": "TBD"
         }
-      ]
-    },
-    {
-      "id": "hackercamp",
-      "name": "HackerCamp",
-      "full_name": "Summer Cybersecurity Training Camp",
-      "description": "An intensive summer program providing students with hands-on cybersecurity training, mentorship, and career preparation. Participants learn offensive and defensive security techniques.",
-      "icon": "sun",
-      "years": [
-        {
-          "year": 2025,
-          "theme": "Cloud Security & DevSecOps",
-          "date": "July 2025 (Exact dates TBD)",
-          "participants": "TBD"
-        }
-      ]
+      ],
+      "url": "https://circus.wccomps.org/"
     }
   ]
 }

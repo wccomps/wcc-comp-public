@@ -1,4 +1,5 @@
 {{ define "main" }}
+{{ if eq .File.Dir "competitions/" }}
 <div class="container my-5">
     <div class="row mb-5">
         <div class="col-lg-8 mx-auto text-center">
@@ -26,14 +27,16 @@
                         <h6 class="fw-bold">Latest Competition:</h6>
                         {{ $latest := index .years 0 }}
                         <p class="mb-1"><strong>Year:</strong> {{ $latest.year }}</p>
+                        {{ if $latest.theme }}
                         <p class="mb-1"><strong>Theme:</strong> {{ $latest.theme }}</p>
+                        {{ end }}
                         {{ if $latest.winner }}
                         <p class="mb-1"><strong>Winner:</strong> {{ $latest.winner }}</p>
                         {{ end }}
                     </div>
                     {{ end }}
                     
-                    <a href="/competitions/{{ .id }}/" class="btn btn-primary mt-3">
+                    <a href="{{ .url | default (printf "/competitions/%s/" .id) }}" class="btn btn-primary mt-3">
                         View Details <i class="bi bi-arrow-right"></i>
                     </a>
                 </div>
@@ -41,23 +44,17 @@
         </div>
         {{ end }}
     </div>
-
-    <!-- CTF Information Card -->
-    <div class="row mt-5">
-        <div class="col-12">
-            <div class="card bg-light">
-                <div class="card-body">
-                    <div class="d-flex align-items-center mb-3">
-                        <i class="bi bi-flag text-primary me-3" style="font-size: 2.5rem;"></i>
-                        <h3 class="card-title mb-0">Capture The Flag (CTF) Competitions</h3>
-                    </div>
-                    <p class="card-text">In addition to our major competitions, WCCOMPS supports and organizes various CTF events throughout the year. These Jeopardy-style and attack-defense competitions provide students with opportunities to develop specific skills in areas like cryptography, web exploitation, binary analysis, and reverse engineering.</p>
-                    <a href="/competitions/ctf/" class="btn btn-outline-primary">
-                        Learn About CTFs <i class="bi bi-arrow-right"></i>
-                    </a>
-                </div>
-            </div>
+</div>
+{{ else if eq (path.Dir (strings.TrimSuffix "/" .File.Dir)) "competitions" }}
+{{ partial "competition.html" . }}
+{{ else }}
+<div class="container my-5">
+    <div class="row">
+        <div class="col-lg-10 mx-auto">
+            <h1 class="display-5 fw-bold mb-4">{{ .Title }}</h1>
+            <div class="content">{{ .Content }}</div>
         </div>
     </div>
 </div>
+{{ end }}
 {{ end }}

@@ -47,18 +47,12 @@ You and your team have just been hired as the IT and security staff for a compan
 
 ### Online Qualifier
 
-- **Date:** February 8, 2025 (9:00 AM - 5:00 PM)
-- **Format:** Remote, online competition
-- **Duration:** 8 hours
-- **Participants:** All eligible Western Region schools
+- **Date:** Saturday, February 6, 2027
 - **Outcome:** Top 8 teams advance to regionals
 
-### Regional Competition
+### Regional Finals
 
-- **Date:** March 28-30, 2025
-- **Location:** Coastline Community College, Garden Grove, CA
-- **Format:** In-person, 3-day event
-- **Participants:** 8 qualified teams
+- **Dates:** TBD
 - **Outcome:** Winner advances to NCCDC Nationals
 
 ## Eligibility

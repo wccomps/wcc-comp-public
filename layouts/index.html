@@ -104,7 +104,7 @@
                         <i class="bi bi-trophy-fill" style="font-size: 2rem;"></i>
                     </div>
                     <h4 class="fw-bold">Premier Competitions</h4>
-                    <p>We organize WRCCDC, PRCCDC, CIRCUS, and HackerCamp - competitions that set the standard for cybersecurity education.</p>
+                    <p>We organize WRCCDC, PRCCDC, and CIRCUS - competitions that set the standard for cybersecurity education.</p>
                 </div>
             </div>
             <div class="col-md-4">
@@ -141,7 +141,7 @@
                         <i class="bi bi-{{ .icon }} text-primary" style="font-size: 3rem;"></i>
                         <h5 class="card-title mt-3 fw-bold">{{ .name }}</h5>
                         <p class="card-text small text-muted">{{ .full_name }}</p>
-                        <a href="/competitions/{{ .id }}/" class="btn btn-outline-primary btn-sm">Learn More</a>
+                        <a href="{{ .url | default (printf "/competitions/%s/" .id) }}" class="btn btn-outline-primary btn-sm">Learn More</a>
                     </div>
                 </div>
             </div>

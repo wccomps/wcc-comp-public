@@ -23,8 +23,6 @@ We organize and run several premier cybersecurity competitions across the Wester
 
 **CIRCUS** - Digital forensics and incident response competition focusing on investigation skills
 
-**HackerCamp** - Intensive summer training program providing comprehensive security education
-
 ### Student Support & Education
 
 Beyond competitions, WCCOMPS provides extensive support to students:
